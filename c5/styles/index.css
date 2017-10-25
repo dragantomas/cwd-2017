@@ -27,14 +27,25 @@ header.top-header {
 				width: 48px;
 				height: 48px;
 				background-color: silver;
+<<<<<<< HEAD
+				/*margin-left: 16px;*/
+				margin: 0px 16px 0px 16px;
+=======
 				margin: 0px 16px 0px 0px;
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 				float: left;
 			}
 
 			header.top-header .top .left .gif {
 				display: block;
+<<<<<<< HEAD
+				width: 96px;
+				height: 48px;
+				background-color: cyan;
+=======
 				width: 118px;
 				height: 48px;
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 				float: left;
 			}
 
@@ -45,6 +56,8 @@ header.top-header {
 				padding: 0px;
 				list-style: none;
 			}
+<<<<<<< HEAD
+=======
 				.main-nav-hot {
 					float: left;
 					background-color: #151515;
@@ -57,10 +70,26 @@ header.top-header {
 					text-decoration: none;
 					font-weight: 800;
 					}
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 
 				.main-nav li {
 					float: left;
 					padding: 15px 5px;
+<<<<<<< HEAD
+				}
+
+				.main-nav li:first-of-type {
+					background-color: red;
+				}
+
+					.main-nav li a {
+						font-size: 12px;
+						color: white;
+						text-decoration: none;
+						font-weight: 900;
+					}
+
+=======
 					margin-left: 12px;
 				}
 
@@ -75,6 +104,7 @@ header.top-header {
 					color: white;
 				}
 
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 			header.top-header .top .left .second-nav {
 				float: left;
 				height: 48px;
@@ -86,16 +116,26 @@ header.top-header {
 				.second-nav li {
 					float: left;
 					padding: 15px 5px;
+<<<<<<< HEAD
+				}
+
+					.second-nav li a {
+						font-size: 12px;
+						color: white;
+=======
 					margin-left: 12px;
 				}
 
 					.second-nav li a {
 						font-size: 14px;
 						color: gray;
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 						text-decoration: none;
 						font-weight: 100;
 					}
 
+<<<<<<< HEAD
+=======
 					.second-nav a:hover {
 					color: white;
 					}
@@ -117,6 +157,7 @@ header.top-header {
 					box-sizing: border-box;
 					}
 
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 		header.top-header .top .right {
 			float: right;
 			height: 48px;
@@ -193,18 +234,54 @@ main {
 	min-height: 300px;
 	margin: 0 auto;
 	padding-top: 50px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 }
 
 	main .main-left {
 		width: 60%;
 		min-height: 100px;
+<<<<<<< HEAD
+		background-color: white;
+		float: left;
+	}
+
+		main .post img {
+			width: 100%;
+		}
+			main .info .subtitle {
+				font-size: 14px;
+				font-weight: bold;
+				color: cyan;
+				text-decoration: none;
+				}
+				main .counters {
+				color: gray;
+				font-size: 14px;
+				font-weight: bold;
+				text-decoration: none;
+				}
+			.share-vote {
+				color: gray;
+			}
+
+=======
 		background-color: gray;
 		float: left;
 	}
 
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
 	main .main-right {
 		width: 30%;
 		min-height: 100px;
 		background-color: purple;	
 		float: right;
+<<<<<<< HEAD
 	}
+	
+
+=======
+	}
+>>>>>>> 60d7e4ccf43b2d0068736eb82860cf05f6079064
