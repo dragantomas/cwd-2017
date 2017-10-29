@@ -1,0 +1,440 @@
+* {
+		padding: 0;
+		margin:  0;
+		list-style: none;
+		box-sizing: border-box;
+		font-family: sans-serif; 
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	.header-top {
+		width: 100%;
+		height: 38px;
+		background-color: #f2f2f2;
+		box-sizing: border-box;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #e6e6e6;
+	}
+
+		.header-top a:hover {
+			color: #4d4d4d;
+		}
+
+		.header-language {
+			float: left;
+			height: 38px;
+			width: 75px;
+			margin-left: 18.9%;
+			padding-top: 11px;
+			padding-left: 12px;
+			border-right-style: solid;
+			border-right-width: 1px;
+			border-right-color: #e6e6e6;
+			border-left-style: solid;
+			border-left-width: 1px;
+			border-left-color: #e6e6e6;
+			font-size: 11px;
+			font-weight: 800;
+		}
+
+			.header-language a {
+				text-decoration: none;
+				color: #999999;
+			}
+
+			.header-language-link {
+				box-sizing: border-box;
+				padding-left: 5px;
+				vertical-align: top;
+			}
+
+			.header-help {
+				float: left;
+				height: 38px;
+				width: auto;
+				margin-left: 46%;
+				
+			}
+
+				.header-help li {
+					height: 38px;
+					box-sizing: border-box;
+					float: left;
+					padding-left: 12px;
+					padding-right: 16px;
+					border-right-style: solid;
+					border-right-width: 1px;
+					border-right-color: #e6e6e6;
+					border-left-style: solid;
+					border-left-width: 1px;
+					border-left-color: #e6e6e6;
+					padding-top: 9px;
+				}
+
+					.header-help a {
+						text-decoration: none;
+						font-size: 11px;
+						font-weight: 600;
+						letter-spacing: 1px;
+						color: #999999;
+					}
+
+			.header-bottom {
+				box-sizing: border-box;
+				display: block;
+				width: 100%;
+				height: 65px;
+			}
+
+				.header-bottom-logo {
+					float: left;
+					margin-left: 18.9%;
+					padding-top: 17px;
+					padding-left: 9px;
+				}
+
+				.header-bottom-menu {
+					float: left;
+					margin-left: 3.5%;
+				}
+
+					.header-bottom-menu li {
+						float: left;
+						padding-top: 22px;
+						margin-right: 27px;
+						font-size: 12.6px;
+						font-weight: 800;
+					}
+
+					.header-bottom-menu-light a {
+						float: left;
+						padding-top: 2px;
+						margin-right: 11px;
+						font-size: 12.6px;
+						font-weight: 500;
+					}
+
+					.header-bottom-menu a {
+						text-decoration: none;
+						color: black;
+					}
+
+						.header-bottom-search {
+							box-sizing: border-box;
+							height: 65px;
+							float: right;
+							margin-right: 22.3%;
+							padding-top: 22px;
+							}
+
+							.header-bottom-search a {
+								padding-top: 24px;
+								font-size: 14px;
+								color: #999999;
+							}
+
+			.main-picture {
+				position: relative;
+				width: 100%;
+				height: 820px;
+				box-sizing: border-box;
+			}
+
+				.main-picture img {
+				width: 100%;
+				height: 820px;					
+				}
+
+				.main-picture-left {
+					position: absolute;
+					top: 44%;
+				    left: 5%;
+				    font-size: 70px;
+				    color: white;
+				}
+
+					.main-picture-right {
+					position: absolute;
+					top: 44%;
+				    right: 5%;
+				    font-size: 70px;
+				    color: white;
+				}
+
+					.main-picture-left a {
+						color: white;
+						text-decoration: none;
+					}
+
+					.main-picture-right a {
+						color: white;
+						text-decoration: none;
+					}
+
+						.main-picture-left a:hover {
+						color: #007acc;
+						text-decoration: none;
+					}
+
+					.main-picture-right a:hover {
+						color: #007acc;
+						text-decoration: none;
+					}
+
+					.main-picture-text {
+						box-sizing: border-box;
+						position: absolute;
+						top: 65%;
+						left: 20%;
+						color: white;
+					}
+
+						.main-picture-text h1 {
+							font-size: 36px;
+							margin-bottom: 12px;
+							font-weight: 700;
+						}
+
+							.main-picture-text h3 {
+							font-size: 26px;
+							margin-bottom: 12px;
+							font-weight: 600;
+						}
+
+						.main-picture-link {
+							position: absolute;
+							top: 85%;
+							left: 20%;
+							margin-top: 10px;
+						}
+
+							.main-picture-link a {
+								
+								margin-right: 2px;
+								background-color: #0099ff;
+								color: white;
+								font-size: 11px;
+								font-weight: 800;
+								padding: 6px 10px 6px 10px;
+								text-decoration: none;
+								letter-spacing: 1px;
+							}
+
+								.main-picture-link a:hover {
+									background-color: #007acc;
+								}
+
+							.main-picture-bottom {
+								position: absolute;
+								top: 91%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+							}
+
+								.main-picture-bottom a {
+									font-size: 14px;
+									color: white;
+									text-decoration: none;
+									margin-right: 10px;
+								}
+
+									.main-picture-bottom a:hover {
+										color: #0099ff;
+									}
+
+				.main-section {
+					width: 100%;
+					height: 125px;
+					margin-top: -4px;
+					text-align: center;
+					box-sizing: border-box;
+					border-top-style: solid;
+					border-top-width: 4px;
+					border-top-color: #0099ff;
+					padding-top: 36px;
+				}
+
+					.main-section h2 {
+						font-weight: 700;
+						color: #4d4d4d;
+						letter-spacing: 1px;
+					}
+
+					.main-section p {
+						font-size: 14.5px;
+						color: #4d4d4d;
+					}
+
+					.main-section a {
+						text-decoration: none;
+						padding-bottom: -4px;
+					}
+
+				.main-section-content {
+					width: 100%;
+				}
+
+					.main-section-top-left {
+						position: relative;
+						float: left;
+						width: 29%;
+						height: 282px;
+						margin-left: 20.2%;
+						margin-top: 60px;
+					}
+
+						.main-section-top-right {
+						position: relative;
+						float: right;
+						width: 29%;
+						height: 282px;
+						margin-right: 20.2%;
+						margin-top: 60px;
+					}
+
+						.main-section-bottom-left {
+						position: relative;
+						float: left;
+						width: 29%;
+						height: 282px;
+						margin-left: 20.2%;
+						margin-top: 30px;
+						margin-bottom: 210px;
+					}
+
+						.main-section-bottom-right {
+						position: relative;
+						float: right;
+						width: 29%;
+						height: 282px;
+						margin-right: 20.2%;
+						margin-top: 30px;
+						margin-bottom: 210px;
+					}
+
+					.main-section-content img {
+						width: 100%;
+						height: 100%;
+					}
+
+					.ms-image:hover {
+						background-color: black;
+					}
+					
+					.ms-image:hover img {
+						opacity: 0.4;
+					}
+
+					.ms-image {
+						position: relative;
+						height: 100%;
+					}
+
+					.msc-link {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						box-sizing: border-box;
+						padding: 10px 30px 10px 30px; 
+						border-style: solid;
+						border-width: 1px;
+						border-color: white;
+						background-color: rgba(254,254,254,0.15)
+					}
+
+					.msc-link a {
+						color: white;
+						font-size: 20px;
+						font-weight: 800;
+						text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+					}
+
+			.section2 {
+					width: 100%;
+					height: auto;
+					margin-top: 50px;
+					text-align: center;
+					box-sizing: border-box;
+					padding-top: 36px;
+				}
+
+					.section2 h2 {
+						padding-top: 60px
+						font-weight: 700;
+						color: #4d4d4d;
+						letter-spacing: 1px;
+					}
+
+					.section2 p {
+						font-size: 14.5px;
+						color: #4d4d4d;
+					}
+
+					.section2-top-left {
+						float: left;
+						width: 29%;
+						height: 450px;
+						margin-left: 20.2%;
+						margin-top: 40px;
+						}
+
+						.section2-image {
+							width: 100%;
+							height: 100%;
+							position: relative;
+							overflow: hidden;
+						}
+
+							.section2-image .s2-tl-image {
+								width: 100%;
+								height: 100%;
+								background-position: center;
+								background-size: cover;
+								transition: all ease-in-out .1s;
+							}
+
+								.section2-image .s2-tl-top {
+									width: 90%;
+									height: 80%;
+									background-color: blue;
+									position: absolute;
+									opacity: 0;
+									top: 50%;
+									left: 50%;
+									transform: translate(-50%, -50%);
+									transition: all ease-in-out .1s;
+								}
+
+								.section2-image:hover {
+									opacity: 0.5;
+								}
+
+						.s2-tl-text {
+							float: left;
+							position: absolute;
+							top: 80%;
+							left: 45%;
+							transform: translate(-50%, -50%);
+							text-align: left;
+						}
+
+							.s2-tl-text p {
+								font-size: 11px;
+								font-weight: 700;
+								color: white;
+								margin-bottom: 18px;
+							}
+
+							.s2-tl-text h3 {
+								font-size: 22px;
+								font-weight: 700;
+								color: white;
+								text-transform: uppercase;
+								letter-spacing: 1px;
+							}
+					
