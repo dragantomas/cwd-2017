@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.clean {
+	clear: both;
+}
+
+.container-main {
+	margin: 50px;
+	width: 570px;
+	height: 313px;
+	border-radius: 10px;
+	background-color: cyan;
+}
+
+.right {
+	width: 285px;
+	height: 313px;
+	background-image: url(img.jpg);
+}
+
+.button {
+	float: left;
+	margin: 255px 20px 0 20px;
+	width: 246px;
+	height: 38px;
+	border-radius: 19px;
+	background-color: black;
+	opacity: .5;
+	text-align: center;
+}
+
+.date {
+	float: left;
+	color: white;
+	font-size: 17px;
+	width: 200px;
+}
+
+.strelka-d {
+	width: 20px;
+	font-size: 24px;
+	float: right;
+	color: white;
+	float: left;
+}
+
+.strelka-l {
+	width: 20px;
+	font-size: 24px;
+	color: white;
+	float: left;
+}
