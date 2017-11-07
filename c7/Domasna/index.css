@@ -1024,6 +1024,7 @@ margin-top: 12px;
 	margin-left: -100px;
 	background-color: #47a777;
 	box-shadow: 0 -2px 0 #38865f;
+<<<<<<< HEAD
 }
 
 .tropical-3:after {
@@ -1115,7 +1116,103 @@ margin-top: 12px;
 	line-height: 1.6;
 	font-stretch: extra-expanded;
 	letter-spacing: .1px;
+=======
+>>>>>>> 3ce8fdf450c9d1ea1f008cd52ee34274793e1c3f
 }
+
+.tropical-3:after {
+	border-top: 9px solid transparent;
+ 	border-bottom: 9px solid transparent;
+ 	border-left: 8px solid #47a777;
+    content:"";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 39px;
+    right: -8px;
+}
+
+.tropical-4 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 300px;
+	margin-left: -100px;
+	background-color: #0aacd3;
+	border-radius: 0 0 0 5px; 
+}
+
+.tropical-number {
+	float: left;
+	margin-top: -62px;
+	margin-left: -15.5px;
+	font-size: 83px;
+	color: white;
+	opacity: .2;
+	font-weight: 100;
+	display: inline-block;
+	letter-spacing: -4px;
+}
+
+.tropical-text {
+	width: 100%;
+	float: right;
+	font-size: 20px;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 38px;
+}
+
+.tropical-image {
+	float: right;
+	height: 200px;
+	width: 270px;
+	background-image: url(img4.jpg);
+	position: cover;
+	border-radius: 0 5px 0 0; 
+}
+
+.tropical-image-arrow {
+	float: right;
+	margin-top: 15px;
+	margin-right: 16px;
+}
+
+.tropical-image-arrow i {
+	text-align: center;
+	font-size: 32px;
+	color: rgba(255, 255, 255, .5);
+}
+
+.tropical-article {
+	float: right;
+	width: 270px;
+	height: 200px;
+}
+
+.tropical-article h4 {
+	font-size: 22px;
+	color: #5a3644;
+	padding-top: 17px;
+	margin-left: 29px;
+	font-weight: 1000;
+	font-stretch: ultra-expanded;
+
+}
+
+.tropical-article p {
+	font-size: 15px;
+	color: #aa9698;
+	padding-top: 12.5px;
+	padding-left: 29px;
+	padding-right: 29px;
+	line-height: 1.6;
+	font-stretch: extra-expanded;
+	letter-spacing: .1px;
+
+}
+
 
 /* AMSTERDAN */
 
@@ -1129,7 +1226,6 @@ margin-top: 12px;
 	margin-right: 900px;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 0px 3px 8px 0 rgba(0,0,0,0.2);
-
 }
 
 .amsterdam-image {
@@ -1138,7 +1234,7 @@ margin-top: 12px;
 	background-image: url(img3.jpg);
 	border-radius: 5px 5px 0 0;
 	position: cover;
-	}
+}
 
 .amsterdam-button {
 	width: 170px;
